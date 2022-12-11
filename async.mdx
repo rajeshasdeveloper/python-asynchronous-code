@@ -1,0 +1,11 @@
+In the single-threaded concurrency model, we have only one thread executing Python code at any time.
+
+To manage the notifications, theOS uses different event notification systems.
+
+OS Event Notification System
+
+Linux epoll
+Windows I/O completion port (IOCP)
+macOS kqueue
+
+These event notification systems allow us to achieve concurrency using a single thread
